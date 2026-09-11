@@ -2,6 +2,8 @@ import React from "react";
 import Video from "../../../Component/Video";
 import { Link } from "react-router";
 
+import { FaArrowTurnDown } from "react-icons/fa6";
+
 
 const Wish = () => {
   return (
@@ -13,7 +15,7 @@ const Wish = () => {
     h-full w-full"
       >
         <div
-          className="min-w-md border border-pink-300 bg-black/40 slide-up 
+          className="min-w-md border border-pink-300 bg-black/40 slide-up rounded-2xl
         "
         >
           <div className="w-sm mx-auto">
@@ -25,11 +27,17 @@ const Wish = () => {
             <h1 className="text-3xl font-bold text-pink-200 leading-relaxed text-center">
               Happy Birthday 🥂 <br />
               
-              <span class="text-2xl font-semibold">It’s Your Day my love.</span>
+              <span className="text-2xl font-semibold">It’s Your Day my love.</span>
 
             </h1>
             <p className=" text-justify text-purple-200 mb-3 
             ">Happy Birthday! Today is all about celebrating the wonderful person you are. May this new chapter bring you endless joy, great health, and the courage to pursue all your biggest dreams. Enjoy every single moment, eat plenty of cake, and make unforgettable memories. Wishing you your best year yet, and may ALLAH give you a more suitable future!</p>
+
+
+            <p className="text-purple-200 flex items-end gap-2">
+              So,Now go to the next page...<FaArrowTurnDown /> 
+            
+            </p>
 
             <div className="flex justify-center mt-6">
                 <Link

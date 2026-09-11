@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
 const Video = () => {
   return (
-    <><video
-        className="absolute inset-0 h-full w-full object-cover "
+    <>
+      <video
+        className="absolute inset-0 h-full w-full object-cover"
         autoPlay
         loop
         muted
@@ -15,10 +16,9 @@ const Video = () => {
         />
       </video>
 
-      <div className="absolute bg-black/40 inset-0"></div>
+      <div className="absolute inset-0 bg-black/40"></div>
+    </>
+  );
+};
 
-      </>
-  )
-}
-
-export default Video
+export default Video;

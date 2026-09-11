@@ -1,14 +1,18 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Video from "../../Component/Video";
+import { useMusic } from "../../Context/MusicContext";
 
 const Home = () => {
+   const { playMusic } = useMusic();
   const [Birthdate, setBirthDate] = useState("");
   const [nextSentances, setnextSentances] = useState("");
 
   const [showButton, setShowButton] = useState(false);
 
   const intervalRef = useRef(null);
+  
+
 
   const typeText = (text, setText, onComplete, speed = 70) => {
     let index = 0;
@@ -35,6 +39,7 @@ const Home = () => {
   };
 
   const handlebirthDate = () => {
+     playMusic();
     const today = new Date();
 
     const day = today.getDate();
@@ -64,6 +69,8 @@ Then,`;
   return (
     <div className="relative h-screen overflow-hidden">
       <Video/>
+
+      
 
       {/* start */}
 
