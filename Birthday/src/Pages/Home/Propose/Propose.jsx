@@ -15,7 +15,7 @@ const Propose = () => {
         <Video />
 
         {!TreatYes?<div className="absolute z-10 justify-center items-center h-full w-full flex flex-col gap-2 md:flex md:flex-row">
-          <div className="border border-pink-400 min-w-md bg-black/40 slide-up rounded-2xl">
+          <div className="border border-pink-400 min-w-[440px] bg-black/40 slide-up rounded-2xl">
             <div className="w-[220px] mx-auto">
               <h1 className="text-pink-200 text-center font-bold text-3xl py-3">
                 I Love You My Sweet Heart❤️
@@ -46,7 +46,7 @@ const Propose = () => {
               {!proposeNo?<><button onClick={()=>(setProposeNo(true))} className="bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-full">
                 No 🥺
               </button></>:<><button onClick={()=>(setProposeYes(true))} className="bg-rose-500 hover:bg-rose-600 text-white px-6 py-2 rounded-full">
-                Click Yes 😤
+                Yes 😤
               </button></>}
 
               {/* <button className="bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-full">
@@ -56,7 +56,8 @@ const Propose = () => {
           </div>
 
 
-         {proposeYes&&( <div className="border border-pink-400 min-w-md bg-black/40 slide-down">
+         {proposeYes&&( <div className="border border-pink-400 min-w-[440px] bg-black/40 slide-down rounded-2xl
+         ">
             <h1 className="text-pink-200 text-center py-2">Thank You For rechieving my proposal❤️🥺</h1>
 
             <div className="w-[300px] mx-auto text-pink-200">
@@ -71,7 +72,7 @@ const Propose = () => {
               {!TreatNo?<><button onClick={()=>(setTreatNo(true))} className="bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-full">
                 No 🥺
               </button></>:<><button onClick={()=>(setTreatYes(true))} className="bg-rose-500 hover:bg-rose-600 text-white px-6 py-2 rounded-full">
-                Click Yes 😤
+                Yes 😤
               </button></>}
 
             </div>

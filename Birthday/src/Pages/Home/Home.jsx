@@ -75,7 +75,7 @@ Then,`;
       {/* start */}
 
       <div className="relative z-10 flex justify-center h-full items-center text-white  ">
-        <div className="min-w-md border-1 rounded-md  border-cyan-400 bg-black/40 ">
+        <div className="min-w-[420px] border-1 rounded-md  border-cyan-400 bg-black/40 ">
           <h1 className="text-center font-bold text-4xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent mt-2">
             Hey,"My Sweet heart!"
           </h1>

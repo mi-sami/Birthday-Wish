@@ -15,11 +15,11 @@ const Wish = () => {
     h-full w-full"
       >
         <div
-          className="min-w-md border border-pink-300 bg-black/40 slide-up rounded-2xl
+          className="min-w-[430px] border border-pink-300 bg-black/40 slide-up rounded-2xl
         "
         >
           <div className="w-sm mx-auto">
-            <p className="Normal: text-purple-200">
+            <p className="mt-3 Normal: text-purple-200">
               “Because today is the birthday of the one I love.” ❤️
             </p>
             <p className="text-center
