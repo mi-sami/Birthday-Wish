@@ -1,16 +1,94 @@
-# React + Vite
+# 🎂 Birthday Wish With Proposal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A beautiful and interactive birthday wish template built with React.  
+This project is designed to help you create a special birthday experience for someone you love, combining birthday wishes with a personal proposal.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💝 About The Project
 
-## React Compiler
+- Wish someone a happy Birthday
+- Share personalized messages
+- Express your feelings
+- Propose to your feelings
+- Create a beautiful visual experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The template can be customized with your own messages, images, music, and other personal content.
 
-## Expanding the Oxlint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Coming Soon...
+
+### This project was built using:
+
+-React 
+-Vite
+-Tailwind CSS
+-React Router
+
+## ✨Features
+- Interactive Birthday Wish
+- Personalized birthday experience
+- Proposal section
+- Background music
+- Background video
+- Multiple pages using React Router
+- Responsive design
+- Interactive buttons and animations
+
+## 📂 Project Structure
+```
+text
+Birthday/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── Component/
+│   │
+│   ├── Context/
+│   │
+│   ├── Pages/
+│   │   ├── Home/
+│   │   │   ├── Propose/
+│   │   │   │   └── Propose.jsx
+│   │   │   │
+│   │   │   ├── Wish/
+│   │   │   │   └── Wish.jsx
+│   │   │   │
+│   │   │   └── Home.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── package-lock.json
+└── index.html
+```
+
+## ⚙️ Installation
+
+Follow these steps to run the project locally.
+
+1. Clone the repository
+
+>git clone https://github.com/mi-sami/Birthday-Wish.git
+
+2. Go to the project directory
+
+>cd Birthday-Wish
+
+3. Install dependencies
+
+>npm install
+
+4. Start the development server
+
+> npm run dev
+
+5. Open in browser  
+Vite will provide a local development URL, usually:
+>http://localhost:5173
